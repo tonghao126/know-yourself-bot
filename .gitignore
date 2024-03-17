@@ -1,3 +1,7 @@
+# Don't save model checkpoints since they are too big
+models/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
