@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "llm-packages"
+name = "know-yourself-bot"
 version = "0.1.0"
-description = "Hao Tong submission fro goldbelly ml take home test"
+description = "Experimental LLM Project"
 authors = ["Hao Tong"]
 readme = "README.md"
-
+# after many test this line is necessary to include folder as package. see https://python-poetry.org/docs/pyproject/#packages for more details
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
